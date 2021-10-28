@@ -1,5 +1,5 @@
-const gulp = require('gulp');
-const imagemin = require('gulp-imagemin');
+const gulp = import('gulp');
+const imagemin = import('gulp-imagemin');
 
 exports.default = () => (
 	gulp.src('./raw_images/*')
